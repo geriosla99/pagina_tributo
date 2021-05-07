@@ -1,7 +1,23 @@
 #main {
-    background: url(\Users\geral\Desktop\mi_proyecto_geek\pagina_tributo\image\tapiz.jpg);
+    background: url(\Users\geral\Desktop\mi_proyecto_geek\pagina_tributo\image\tapiz.jpg) no-repeat center center fixed;
 }
 .head {
     background: grey;
+}
+#nav {
+    display: inline;
+    margin: 0 auto;
+    height: 10%;
+    width: 100%;
+}
+#ul-barra-horizontal{
+    list-style: none;
+    text-align: center;
+    padding: 20px;
+}
+.li-barra-horizontal{
+    display: inline;
+    padding: 2%;
+    font-size: 20px;
 }
 
