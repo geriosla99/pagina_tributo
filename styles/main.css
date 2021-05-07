@@ -1,23 +1,80 @@
 #main {
-    background: url(\Users\geral\Desktop\mi_proyecto_geek\pagina_tributo\image\tapiz.jpg) no-repeat center center fixed;
+background-image: url(../image/tapiz.jpg);
 }
 .head {
-    background: grey;
+    background: #808080;
+    height: 100px;
+    width: 100%;
+    border-radius: 4px; 
 }
 #nav {
     display: inline;
     margin: 0 auto;
-    height: 10%;
     width: 100%;
 }
 #ul-barra-horizontal{
     list-style: none;
     text-align: center;
     padding: 20px;
+
 }
 .li-barra-horizontal{
     display: inline;
     padding: 2%;
     font-size: 20px;
+    font-family: itim;
+    color: black;
 }
-
+#tribute_info {
+    background: lightgray;
+    height: 70%;
+    width: 40%;
+    padding: 40px;
+    text-align: center;
+    margin-left: 27%;
+    margin-top: 0px;
+}
+#image-div {
+    display: inline-block;
+    margin: 0 auto;
+}
+#title {
+    font-family: itim;
+    font-size: 50px;
+    margin-top: 5px;
+}
+.text{
+    text-align: justify;
+    font-family: itim;
+    color: black;
+}
+.img{
+    width: 100%;
+}
+#img_caption{
+    font-family: itim;
+}
+a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+}
+.container{
+    background: lightgray;
+    height: 70%;
+    width: 40%;
+    padding: 40px;
+    text-align: center;
+    margin-left: 27%;
+    margin-top: 0px;
+}
+.image{
+    width: 70%;
+}
+.title{
+    font-family: itim;
+    font-size: 50px;
+    margin-top: 5px;
+}
